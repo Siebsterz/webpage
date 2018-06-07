@@ -1,0 +1,118 @@
+<nav>
+    <h1> Scoop </h1>
+
+    <ul id="navbar">
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="ranking.html"> World Ranking </a></li>
+        <li><a href="about.html"> About </a></li>
+    </ul>
+
+    <h2> The youngest sport in the world </h2>
+
+</nav>
+
+<p> Welcome to the official website of the International Scoop Federation </p>
+
+<div class="row">
+    <div class="col">column1</div>
+    <div class="col">column2</div>
+    <div class="col">column3</div>
+</div>
+
+
+body {
+    margin: 0;
+    background-color: rgba(25, 25, 50, .7);
+    font-family: "Arial", sans-serif;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 55px;
+    padding: 1px 1px 5px 1px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgba(0, 50, 255, .8);
+    padding: 5px 10px 1px 1px;
+    display: inline;
+}
+
+header h2 {
+    margin: 0;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 15px;
+    color: rgba(0, 50, 255, .8);
+    padding: 5px 1px 1px 1px;
+}
+
+nav {
+    padding: 5px 0px 0px 2px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0px 0px 0px 3px;
+    display: inline;
+}
+
+nav ul li {
+    display: inline-flex;
+    list-style-type: none;
+    background-color: rgba(0, 50, 255, .4);
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+a {
+    color: rgba(50, 50, 50, 1);
+}
+
+p {
+    margin: 0;
+    padding: 0px 0px 0px 5px;
+}
+
+.row {
+
+}
+
+.row:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.col {
+    float: left;
+    width: 30%;
+    margin: 1%;
+    background-color: rgba(0, 50, 255, .4);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.footer {
+    color: rgba(255, 255, 255, .4);
+    font-size: 9px;
+    text-align: right;
+    position: fixed;
+    bottom: 0px;
+    padding: 5px;
+}
+
+#navbar {
+    font-family: "Arial", sans-serif;
+    color: rgba(255, 0, 100, .5);
+}
+
+
+
+<link href="styles/main.css" rel="stylesheet">
+
+
+        <div class="footer">
+            <footer> 2018 -- Siebe Clerinx </footer>
+        </div>
