@@ -39,6 +39,19 @@ form p {
     display: inline;
     padding-right: 10px;
 }
+form #submitName {
+    background-color: #08075b;
+    color: #ffffff;
+    border-radius: 5px;
+}
 
 form #submitButton {
+}
+
+div.btn-group button{
+    background-color: #08075b;
+}
+
+div.btn-group button:hover {
+    background-color: #a8d8e0;
 }

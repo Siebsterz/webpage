@@ -60,7 +60,7 @@
             <div class="row justify-content-md-center">
                 <div class="color3 col-lg-auto">Rank</div>
                 <div id="nameOfPlayer" class="color4 col-lg-auto">Name</div>
-                <div class="color3 col-lg-auto">Score</div>
+                <div id="scoreOfPlayer" class="color3 col-lg-auto">Score</div>
                 <div class="color4 col-lg-auto">+/-</div>
                 <div class="color3 col-lg-auto">Positions</div>
             </div>
@@ -68,9 +68,13 @@
 
         <form id="playerForm" align="middle">
           <p>Name: <input id="playerName" type="text" name="name"></p>
-          <p><input id="submitButton" type="button" value="Submit"></p>
+          <p><input id="submitName" type="button" value="Submit"></p>
         </form>
 
+        <div class="btn-group" role="group" aria-label="Score changer">
+          <button id="winButton"  type="button" class="btn btn-secondary">Win</button>
+          <button id="loseButton" type="button" class="btn btn-secondary">Lose</button>
+        </div>
 
         <div class="footer">
             <footer> 2018 -- Siebe Clerinx </footer>
