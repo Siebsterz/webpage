@@ -29,7 +29,7 @@
                       <a class="dropdown-item" href="rules.html">Players</a>
                       <a class="dropdown-item" href="rules.html">Scoring</a>
                       <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">General rules</a>
+                        <a class="dropdown-item" href="rules.html">General rules</a>
                     </div>
                   </li>
                   <li class="nav-item">
@@ -59,18 +59,24 @@
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="color3 col-lg-auto">Rank</div>
-                <div class="color4 col-lg-auto">Name</div>
+                <div id="nameOfPlayer" class="color4 col-lg-auto">Name</div>
                 <div class="color3 col-lg-auto">Score</div>
                 <div class="color4 col-lg-auto">+/-</div>
                 <div class="color3 col-lg-auto">Positions</div>
             </div>
         </div>
 
+        <form id="playerForm" align="middle">
+          <p>Name: <input id="playerName" type="text" name="name"></p>
+          <p><input id="submitButton" type="button" value="Submit"></p>
+        </form>
+
 
         <div class="footer">
             <footer> 2018 -- Siebe Clerinx </footer>
         </div>
 
+        <script src="scripts/main.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>

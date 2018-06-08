@@ -12,17 +12,33 @@ div.footer {
 }
 
 .color {
-    background-color: lightblue;
+    background-color: #a8d8e0;
 }
 
 .color2 {
-    background-color: blue;
+    background-color: #dedee6;
 }
 
 .color3 {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .color4 {
-    background-color: grey;
+    background-color: #ffffff;
+}
+/*
+.row {
+    border-width: 5px;
+    border-style: solid;
+}
+*/
+form {
+    padding: 10px;
+}
+form p {
+    display: inline;
+    padding-right: 10px;
+}
+
+form #submitButton {
 }
