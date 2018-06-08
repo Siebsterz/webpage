@@ -4,7 +4,7 @@ var submit_player = document.getElementById("submitName");
 var win = document.getElementById("winButton");
 var lose = document.getElementById("loseButton");
 var score = document.getElementById("scoreOfPlayer");
-
+var players = [];
 var playerScore = 0;
 
 submit_player.addEventListener("click", addNewPlayer);

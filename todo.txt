@@ -1,0 +1,4 @@
+--TODO--
+
+-player class (oo?)
+-database
