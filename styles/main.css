@@ -40,7 +40,7 @@ form p {
     padding-right: 10px;
 }
 
-form #submitName {
+form #submitNameButton {
     background-color: #08075b;
     color: #ffffff;
     border-radius: 5px;
