@@ -7,23 +7,23 @@ module.exports = {
         var path = url.parse(request.url).pathname;
         switch(path) {
             case "/":
-                renderHTML("../html/index", response);
+                renderHTML("../html/index.html", response);
                 break;
-            case "/index":
-                renderHTML("../html/index", response);
+            case "/index.html":
+                renderHTML("../html/index.html", response);
                 break;
-            case "/rules":
-                renderHTML("../html/rules", response);
+            case "/rules.html":
+                renderHTML("../html/rules.html", response);
                 break;
-            case "/about":
-                renderHTML("../html/about", response);
+            case "/about.html":
+                renderHTML("../html/about.html", response);
                 break;
-            case "/ranking":
-                renderHTML("../html/ranking", response);
+            case "/ranking.html":
+                renderHTML("../html/ranking.html", response);
                 break;
             default:
                 response.writeHead(404);
-                response.write("Hold up. This page does not exist.");
+                response.write("Hold up. This page doesn't even exist?");
                 response.end();
         }
     }
@@ -33,7 +33,7 @@ function renderHTML(path, response) {
     filesystem.readFile(path, null, function(error, data) {
         if(error) {
             response.writeHead(404);
-            response.write("Error 404: file not found");
+            response.write("~(o_o)~ Error 404: file not found");
         }
         else {
             response.write(data);
