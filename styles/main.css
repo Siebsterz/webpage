@@ -11,21 +11,19 @@ div.footer {
     padding: 5px;
 }
 
-.color {
+.color1 {
     background-color: #a8d8e0;
 }
 
 .color2 {
-    background-color: #dedee6;
+    background-color: #08075b;
+    color: #ffffff;
 }
 
 .color3 {
     background-color: #ffffff;
 }
 
-.color4 {
-    background-color: #ffffff;
-}
 /*
 .row {
     border-width: 5px;

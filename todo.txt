@@ -1,4 +1,5 @@
 --TODO--
 
--player class (oo?)
+--server
 -database
+-make current nav item active
