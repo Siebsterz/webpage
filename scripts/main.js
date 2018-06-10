@@ -7,19 +7,19 @@ module.exports = {
         var path = url.parse(request.url).pathname;
         switch(path) {
             case "/":
-                renderHTML("../html/index.html", response);
+                renderHTML("../html/index", response);
                 break;
-            case "/index.html":
-                renderHTML("../html/index.html", response);
+            case "/index":
+                renderHTML("../html/index", response);
                 break;
-            case "/rules.html":
-                renderHTML("../html/rules.html", response);
+            case "/rules":
+                renderHTML("../html/rules", response);
                 break;
-            case "/about.html":
-                renderHTML("../html/about.html", response);
+            case "/about":
+                renderHTML("../html/about", response);
                 break;
-            case "/ranking.html":
-                renderHTML("../html/ranking.html", response);
+            case "/ranking":
+                renderHTML("../html/ranking", response);
                 break;
             default:
                 response.writeHead(404);
