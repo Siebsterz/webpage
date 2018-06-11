@@ -2,6 +2,12 @@ body {
     background-color: #dedee5;
 }
 
+/*
+@font-face {
+    font-family: "ScoopFont";
+    src: url("");
+} */
+
 div.footer {
     color: rgba(0, 0, 0, .5);
     font-size: 9px;
@@ -10,6 +16,11 @@ div.footer {
     bottom: 0px;
     padding: 5px;
 }
+
+/*
+.navbar-brand {
+    font-family: "ScoopFont";
+}*/
 
 .color1 {
     background-color: #a8d8e0;

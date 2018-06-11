@@ -33,7 +33,7 @@ function renderHTML(path, response) {
     filesystem.readFile(path, null, function(error, data) {
         if(error) {
             response.writeHead(404);
-            response.write("~(o_o)~ Error 404: file not found");
+            response.write("~(o_o)~ error404: file not found");
         }
         else {
             response.write(data);
