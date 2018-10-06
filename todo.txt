@@ -1,5 +1,6 @@
 --TODO--
 
---server
+-server with express
 -database
 -make current nav item active
+-scoop font
