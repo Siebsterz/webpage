@@ -1,6 +1,7 @@
 --TODO--
 
--server with express
+-fix main.css
+-fix navbar
 -database
 -make current nav item active
 -scoop font

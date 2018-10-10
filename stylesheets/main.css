@@ -1,16 +1,22 @@
 body {
-    background-color: #dedee5;
+    background-color: #000000;
+    padding: 50px;
 }
-
 /*
 @font-face {
+dedee5
     font-family: "ScoopFont";
     src: url("");
 } */
 
+nav.navbar {
+    background-color: #000000;
+    color: #000000;
+}
+
 div.footer {
     color: rgba(0, 0, 0, .5);
-    font-size: 9px;
+    font-size: 50px;
     text-align: right;
     position: fixed;
     bottom: 0px;
@@ -23,12 +29,12 @@ div.footer {
 }*/
 
 .color1 {
-    background-color: #a8d8e0;
+    background-color: #f44242;
 }
 
 .color2 {
     background-color: #08075b;
-    color: #ffffff;
+    color: #000000;
 }
 
 .color3 {
@@ -51,7 +57,7 @@ form p {
 
 form #submitNameButton {
     background-color: #08075b;
-    color: #ffffff;
+    color: #dedee5;
     border-radius: 5px;
     padding: 8px 10px 8px 10px;
 }
