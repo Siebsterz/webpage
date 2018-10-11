@@ -9,7 +9,6 @@ var indexRouter = require('./routes/index');
 var aboutRouter = require('./routes/about');
 var rulesRouter = require('./routes/rules');
 var rankingRouter = require('./routes/ranking');
-//var usersRouter = require('./routes/users');
 
 var app = express();
 
