@@ -1,3 +1,17 @@
+<p><input id="submitNameButton" type="button" value="Submit"></p>
+
+condition: false, arrayke: [0,1,2]
+
+{{#if condition}}
+    True!
+{{ else }}
+    Not true :(
+{{/if }}
+
+{{#each arrayke}}
+    {{ this }}
+{{/each}}
+
 <nav>
     <h1> Scoop </h1>
 
