@@ -11,6 +11,9 @@ div.color2 {
 }
 
 #submitButton {
-    color: #000000;
-    background: #1d005b;
+    background: #445672;
+}
+
+#win-lose-buttons {
+    background: #445672;
 }

@@ -1,6 +1,6 @@
 --TODO--
 
--fix navbar
+-fix navbar (split dropdown)
 -database
 -make current nav item active
 -scoop font
