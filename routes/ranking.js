@@ -10,7 +10,6 @@ router.get('/ranking', function(req, res, next) {
 router.post('/submit', function(req, res, next) {
     //check vilidity
     req.check('playerName', 'invalid name: min. length is 2 characters').isLength({min: 2});
-
     var error = req.validationErrors();
         if(error) {
             req.session.errors = error;

@@ -17,6 +17,12 @@ Github source code: https://github.com/Siebsterz/webpage
 
 * **Siebe Clerinx** - https://github.com/Siebsterz
 
+## Special thanks
+
+Special thanks to:
+
+* [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w) - for teaching me all this stuff
+
 ## Acknowledgments
 
 * see ya
