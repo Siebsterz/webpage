@@ -49,12 +49,22 @@
 </div>
 
 <div class="submit">
-    <form id="playerForm" action="/index/submit" method="post" align="middle">
-      <p>Name: <input id="playerName" type="text" name="nameID"></p>
-      <button id="submitButton"  type="submit" class="btn btn-secondary">Submit</button>
+    <form id="playerForm" action="/submit" method="post" align="middle">
+      <p>Name: <input id="player" type="text" name="playerName"></p>
+      <button id="submitButton" type="submit" class="btn btn-secondary">Submit</button>
     </form>
 </div>
-
+{{# if success}}
+    <p> Succesfully added a player! </p>
+{{ else }}
+    {{# if error}}
+            <ul>
+                {{# each error }}
+                    <li>{{this.msg}}</li>
+                {{/each}}
+            </ul>
+    {{/if}}
+{{/if}}
 <div class="btn-group" id="win-lose-buttons" role="group" aria-label="Score changer">
   <button id="winButton"  type="button" class="btn btn-secondary">Win</button>
   <button id="loseButton" type="button" class="btn btn-secondary">Lose</button>
